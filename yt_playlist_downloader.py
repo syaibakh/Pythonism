@@ -1,6 +1,6 @@
 from pytube import Playlist
 
-playlist = Playlist('https://www.youtube.com/playlist?list=PL5NE5Aw6LXceuuw9WMc6PZUHC0UteUX2m')
+playlist = Playlist('https://www.youtube.com/playlist?...')
 
 for video in playlist.video:
 	print(video.title)
