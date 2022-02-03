@@ -1,9 +1,9 @@
 import pyautogui
 import time
 
-time.sleep(5)
+time.sleep(10)
 
-f = open("wordlist", 'r')
+with open("wordlist", 'r') as f:
 for word in f:
     pyautogui.typewrite(word)
     pyautogui.press("enter")
